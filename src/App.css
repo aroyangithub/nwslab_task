@@ -1,0 +1,71 @@
+.pict>img{
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 50%;
+  flex-wrap: wrap;
+}
+.app,.button,.select{
+
+  display:  flex;
+  flex-direction:column ;
+  justify-content:center ;
+  align-items: center;
+}
+.select>select{
+  width:200px;
+  height: 30px;
+  background:palegoldenrod ;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.button>button{
+  width:200px;
+  height: 30px;
+  background:palegoldenrod ;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+
+
+  border: none;
+ 
+}
+ul{
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+}
+ul>li>a{
+  text-decoration: none;
+  padding: 20px;
+  list-style: none;
+  color:blueviolet ;
+  font-size: 20px;
+  font-family: monospace;
+
+}
+ul>li{
+  
+  list-style: none;
+
+}
+header{
+  background-color: palegoldenrod;
+  width: 100%;
+}
+
+@media (max-width:450px){
+
+ul{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+}
